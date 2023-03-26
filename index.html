@@ -163,10 +163,23 @@
 
       <div class="contact-me">
         <h1>Contact Me</h1>
-        <form class="form" method="post" action="http://formspree.io/adrianpurnama209@gmail.com">
-          <input type="email" name="_replyto" style="display: block;" placeholder="email here">
-            <textarea   name="body" style="display: block;" placeholder="type here"></textarea>
-          <input type="submit" value="Send">
+        <div class="form">
+          <form
+          action="https://formspree.io/f/mpzejnyz"
+          method="POST"
+        >
+          <label style="display: block;">
+            Your email:
+            <input type="email" name="email" style="display: block;">
+          </label>
+          <label style="display: block;">
+            Your message:
+            <textarea name="message" style="display: block;"></textarea>
+          </label>
+          <!-- your other form fields go here -->
+          <button class="form-button" type="submit">Send</button>
+        </div>
+        
         </form>
         <h5>You can also find me here</h5>
         <div class="ic-cn">

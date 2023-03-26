@@ -1,5 +1,15 @@
 //change body, container margin to 0, puts 1.5 em to header
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+$base-color: #C0B283;
+$base-color-border: #A7996A;
+$second-color: #373737;
+$second-color-border: #272727;
+$third-color: #C0B283;
+
 
 
 body{
@@ -349,9 +359,6 @@ nav{
     font-weight: bold;
     font-size: 3rem;
   }
-
-.form{
-  margin-bottom: 1rem;
 }
 
   .ic-cn{
@@ -374,9 +381,23 @@ nav{
     width: 2.5em;
     height: auto;
   }
-  }
-  
+
 }
+
+.form-button{
+  background-color: #A25449;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 1em;
+  width:7rem;
+  height: 2rem;
+  color: white;
+
+  &:hover{
+    background-color: #a53a2b;
+  }
+}
+
 
 
 //ANCHOR 680px

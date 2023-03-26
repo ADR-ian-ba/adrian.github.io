@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Baloo");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 body {
   font-family: "poppins", sans-serif;
   color: white;
@@ -310,27 +313,38 @@ nav svg {
   font-weight: bold;
   font-size: 3rem;
 }
-.contact-me .form {
-  margin-bottom: 1rem;
-}
-.contact-me .ic-cn {
+
+.ic-cn {
   width: 12rem;
   background-color: #2b0616;
   padding: 0.5em;
   border-radius: 1em;
 }
-.contact-me .ic-cn .icon {
+.ic-cn .icon {
   display: flex;
   justify-content: space-between;
   padding: 0;
   margin: 0;
 }
-.contact-me .ic-cn .icon:hover {
+.ic-cn .icon:hover {
   cursor: pointer;
 }
-.contact-me .ic-cn svg {
+.ic-cn svg {
   width: 2.5em;
   height: auto;
+}
+
+.form-button {
+  background-color: #A25449;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 1em;
+  width: 7rem;
+  height: 2rem;
+  color: white;
+}
+.form-button:hover {
+  background-color: #a53a2b;
 }
 
 @media only screen and (min-width: 680px) {
